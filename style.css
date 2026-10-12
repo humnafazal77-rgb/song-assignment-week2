@@ -1,0 +1,207 @@
+/* What the Font - Danny Boy */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #1d2621;
+  color: #e6e1d3;
+  font-family: "Lora", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+header {
+  text-align: center;
+  padding: 70px 20px 50px;
+  background: linear-gradient(#2c3b31, #1d2621);
+  border-bottom: 1px solid #3a4a40;
+}
+
+.small-label {
+  font-family: "Caveat", cursive;
+  font-size: 1.4rem;
+  color: #a9b8a0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  color: #f3e9c6;
+  margin: 5px 0;
+}
+
+.artist {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #b7b1a0;
+  margin: 0;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+}
+
+.verse {
+  margin-bottom: 50px;
+  padding: 30px 35px;
+  border-radius: 6px;
+}
+
+.verse p {
+  margin: 0 0 6px;
+}
+
+h2 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #8fa88a;
+  margin-top: 0;
+}
+
+/* verse 1 - someone shouting across the hills */
+.calling {
+  background: #26332b;
+}
+
+.calling .loud {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #f3e9c6;
+  margin-bottom: 14px;
+}
+
+.calling .fading {
+  font-style: italic;
+  color: #9a9a8c;
+}
+
+.calling .heavy {
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 12px;
+}
+
+/* verse 2 - warmer, hopeful */
+.hopeful {
+  background: #2d3a2a;
+  border-left: 4px solid #d8b75a;
+}
+
+.hopeful p {
+  line-height: 2;
+}
+
+.warm {
+  color: #e9c96b;
+  font-weight: 700;
+}
+
+.shadow {
+  color: #7f8a80;
+  font-style: italic;
+}
+
+.hopeful .promise {
+  font-family: "Caveat", cursive;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #f1d57e;
+  margin-top: 16px;
+}
+
+/* verse 3 - heartbreak, slowed down */
+.grief {
+  background: #222a29;
+}
+
+.grief p {
+  font-style: italic;
+  color: #a7aea6;
+  letter-spacing: 0.5px;
+  line-height: 2.2;
+}
+
+.grief .dead {
+  color: #7c8580;
+  letter-spacing: 4px;
+}
+
+.grief .kneel {
+  font-size: 1.05rem;
+  padding-left: 40px;
+}
+
+/* verse 4 - basically a whisper */
+.whisper {
+  text-align: center;
+  border: 1px dashed #3d4a43;
+}
+
+.whisper p {
+  font-size: 0.95rem;
+  color: #8c958e;
+  letter-spacing: 3px;
+  line-height: 2.4;
+}
+
+.whisper .soft {
+  font-size: 0.85rem;
+  color: #6f7872;
+  letter-spacing: 6px;
+}
+
+.whisper .last-line {
+  font-family: "Caveat", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  color: #d9d2bd;
+  margin-top: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.85rem;
+  color: #7d8a80;
+  border-top: 1px solid #33413a;
+}
+
+footer p {
+  margin: 4px 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .verse {
+    padding: 20px;
+  }
+
+  .calling .loud {
+    font-size: 1.35rem;
+  }
+
+  .grief .kneel {
+    padding-left: 20px;
+  }
+}
